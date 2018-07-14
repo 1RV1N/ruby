@@ -23,6 +23,7 @@
 					}
 				?>
 				</div>
+
 				<!-- <div clas="category" id="category_1">
 				<?php
 					for ($i = 1; $i <= 20; $i++) {
@@ -37,6 +38,7 @@
 					}
 				?>
 				</div>
+
 				<div clas="category" id="category_3">
 				<?php
 					for ($i = 1; $i <= 20; $i++) {
@@ -44,6 +46,7 @@
 					}
 				?>
 				</div>
+
 				<div clas="category" id="category_4">
 				<?php
 					for ($i = 1; $i <= 20; $i++) {
@@ -70,8 +73,5 @@
 				<img src="">
 			</div>
 		</div>
-
-		<footer>
-		</footer>
 	</body>
 </html>

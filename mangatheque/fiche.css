@@ -1,7 +1,10 @@
 *{padding:0;margin:0;}
+body{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
 nav{
-	height:8vh;
-	line-height: 8vh;
+	height:10vh;
+	line-height: 100px;
 	position: fixed;
 	width:100vw;
 	background-color: black;
@@ -16,43 +19,85 @@ nav{
 	}
 #proposition_container{
 	background-color:lightgrey;
-	padding-top: 14vh;
-	margin-bottom: 50px;
+	padding-top:10vh;
+	height:90vh;
 	width: 79%;
 	float: left;
-}	
 
-	#proposition_block{
-		margin :auto;
-		/*background-color: black;*/
-		height:70vh;
-		max-width: 99%;
+	display: flex;
+	flex-wrap: wrap;
+}	
+	.propContainerLeft{
+		width:50%;
+		height: 90vh;
+		/*background-color: red;*/
+		display: flex;
+		flex-wrap: wrap;
 	}
-		#proposition_nav{
-			height:7vh;
-			width: 100%;
-			/*background-color: yellow;*/
-		}
-			.proposition_category{
-				height: 30px;
-				width:30px;
-				margin-top:20px;
-				margin-left: 0.5%;
-				border-radius: 20px;
-				background-color: grey;
-				float: left;
-			}
+	.titleLeft{
+		width: 90%;
+		margin:5%;
+		height: 3em;
+		line-height: 3em;
+		/*background-color: grey; */
+		font-size: 2em;
+	}
+	.propContainerLeft img{
+		width:40%;
+		height: 40vh;
+		margin-left: 5%;
+		background-color: green;
+	}
+	.detail{
+		width:35%;
+		height: 40vh;
+		margin-left: 3%;
+		/*background-color: blue;*/
+		text-align: justify;
+	}
+
+	.synopsis{
+		width: 90%;
+		margin: 0 5%;
+		height: 20vh;
+		/*background-color: blue;*/
+		text-align: justify;
+	}
+	.propContainerRight{
+		width:47.5%;
+		height: 90vh;
+		margin-left: 2%;
+		/*background-color: blue;*/
+		border-left: dotted 1px;
+	}
+	.titleRight{
+		width: 90%;
+		margin:5% 5%;
+		height: 3em;
+		line-height: 3em;
+		background-color: grey; 
+		font-size: 1.5em;
+		margin-bottom: 10vh;
+	}
+	.Recommandation{
+		width: 90%;
+		margin:0 5%;
+		/*background-color: red;*/
+		display: flex;
+		flex-wrap: wrap;
+	}
 		.proposition{
-			width:19%;
+			width:24%;
 			height:150px;
 			background-color: grey;
-			float: left;
 			margin:5px 0.5%;
 		}
+
+
 	.side_block{
 		width: 7%;
-		height:70vh;
-		padding-top: 14vh;
+		padding-top:10vh;
+		height:90vh;
 		background-color: red;
 		float: left;
 	}
@@ -67,11 +112,11 @@ nav{
 			height:80px;
 			border-radius: 50px;
 			background-color: white;
-			margin:auto;
+			margin:20px auto;
 		}
 footer{
 	clear: left;
 	width: 100%;
 	height: 150px;
-	background-color: lightgrey;
+	background-color: purple;
 }

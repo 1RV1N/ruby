@@ -1,7 +1,7 @@
 *{padding:0;margin:0;}
 nav{
-	height:8vh;
-	line-height: 8vh;
+	height:10vh;
+	line-height: 100px;
 	position: fixed;
 	width:100vw;
 	background-color: black;
@@ -16,8 +16,8 @@ nav{
 	}
 #proposition_container{
 	background-color:lightgrey;
-	padding-top: 14vh;
-	margin-bottom: 50px;
+	padding-top:10vh;
+	height:90vh;
 	width: 79%;
 	float: left;
 }	
@@ -25,7 +25,6 @@ nav{
 	#proposition_block{
 		margin :auto;
 		/*background-color: black;*/
-		height:70vh;
 		max-width: 99%;
 	}
 		#proposition_nav{
@@ -51,8 +50,8 @@ nav{
 		}
 	.side_block{
 		width: 7%;
-		height:70vh;
-		padding-top: 14vh;
+		padding-top:10vh;
+		height:90vh;
 		background-color: red;
 		float: left;
 	}
@@ -67,11 +66,11 @@ nav{
 			height:80px;
 			border-radius: 50px;
 			background-color: white;
-			margin:auto;
+			margin:20px auto;
 		}
 footer{
 	clear: left;
 	width: 100%;
 	height: 150px;
-	background-color: lightgrey;
+	background-color: purple;
 }
