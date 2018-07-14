@@ -53,7 +53,7 @@ nav{
 		}
 
 #proposition_container{
-	/*background-color: grey;*/
+	
 	margin:auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -62,7 +62,7 @@ nav{
 	#proposition_block{
 		margin :auto;
 		/*background-color: black;*/
-		height:80vh;
+		height:100vh;
 		max-width: 99%;
 	}
 		#proposition_nav{
